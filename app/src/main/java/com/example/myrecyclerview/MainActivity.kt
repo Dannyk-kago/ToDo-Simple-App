@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
             Todo("learn about RecycleView", true),
             Todo("Feed my cat", true),
             Todo("Ask my Crush out", false),
-            Todo("Take a shower", true)
+            Todo("Take a shower", true),
+            Todo("Ask my Crush out", false),
+            Todo("Take a shower2", true)
         )
         val adapter = TodoAdapter(todoList)
         binding.rvTodos.adapter = adapter
